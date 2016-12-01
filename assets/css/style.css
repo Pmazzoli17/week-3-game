@@ -1,0 +1,77 @@
+body {
+  font-family: 'Mountains of Christmas', cursive;
+  background-image: url("../images/christmas.jpg");
+}
+
+.jumbotron {
+  text-align: center;
+  color: white;
+  font-family: 'Mountains of Christmas', cursive;
+  background-color: green;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+body {
+  background-color: #FFFBC0;
+  font-family: 'Roboto', sans-serif;
+}
+
+h3 {
+  margin-top: 0;
+  padding: 8px;
+  background: white;
+}
+
+.btn {
+  cursor: pointer;
+}
+
+.jumbotron h1 {
+  font-size: 60px;  
+}
+
+.list-group-item.active, 
+.list-group-item.active:focus, 
+.list-group-item.active:hover {
+  background-color: green;
+  border-color: #337ab7;
+}
+
+.scoreBoard {
+  align-content: center;
+  font-family: 'Mountains of Christmas', cursive;
+  font-size: 20px;
+}
+
+#currentWord {
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Mountains of Christmas', cursive;
+}
+
+#alphabet-btns {
+  text-align: center;
+  padding-right: 50px;
+  padding-left: 50px;
+  font-family: 'Mountains of Christmas', cursive;
+}
+
+.center {
+  text-align: center;
+  font-size: 30px;
+}
+
+.btn-primary {
+  margin: 0 10px 10px 0;
+  width: 40px;
+  height: 35px;
+  font-family: 'Mountains of Christmas', cursive;
+  text-transform: uppercase;  
+  background: green;
+}
+.btn-primary:hover {
+    background: #000;
+    border: solid 1px $grey;
+    color: #FFF88B;
+  }
